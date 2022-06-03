@@ -1,0 +1,40 @@
+Input:
+ABC142C/in/00-sample-01.txt ABC142C/in/00-sample-02.txt ABC142C/in/00-sample-03.txt ABC142C/in/01-small-01.txt ABC142C/in/01-small-02.txt ABC142C/in/01-small-03.txt ABC142C/in/01-small-04.txt ABC142C/in/01-small-05.txt ABC142C/in/02-large-01.txt ABC142C/in/02-large-02.txt ABC142C/in/02-large-03.txt ABC142C/in/02-large-04.txt ABC142C/in/02-large-05.txt ABC142C/in/03-max-01.txt ABC142C/in/03-max-02.txt ABC142C/in/10-handmade-01.txt
+output:
+ABC142C/out/00-sample-01.txt ABC142C/out/00-sample-02.txt ABC142C/out/00-sample-03.txt ABC142C/out/01-small-01.txt ABC142C/out/01-small-02.txt ABC142C/out/01-small-03.txt ABC142C/out/01-small-04.txt ABC142C/out/01-small-05.txt ABC142C/out/02-large-01.txt ABC142C/out/02-large-02.txt ABC142C/out/02-large-03.txt ABC142C/out/02-large-04.txt ABC142C/out/02-large-05.txt ABC142C/out/03-max-01.txt ABC142C/out/03-max-02.txt ABC142C/out/10-handmade-01.txt
+
+
+Submission #24075039
+ABC142C_1.cpp
+
+Takahashi is a teacher in charge of an N-student class.
+Students are assigned unique student numbers ranging from 1 to N.
+Today, all of the pupils arrived at different times in the classroom.
+When student number I joined the classroom, there were A I pupils in the room, according to Takahashi's logbook (including student number i).
+Recreate the order in which the students entered the classroom using these records.
+
+Description for code block 1 (Line 7 to 11) : int main function, declare int variable N, int array A with size of 100000, input n, i iterate from 0 to N minus 1, each time plus 1, input A[i]
+Description for code block 2 (Line 13 to 15) : declare vector of pair of int and int v, iterate i from 0 to N minus 1, each time plus 1, v is pushed back with pair of A[i] and i plus 1
+Description for code block 3 (Line 17 to 19) : sort v from begin to end, iterate i from 0 to N minus, each time plus 1, output v[i]'s second element
+Description for code block 4 (Line 1 to 6) : include iostream, string, vector, algorithm headerfile, specify namespace
+Description for code block 5 (Line 12 to 12) : bracket
+Description for code block 6 (Line 16 to 16) : bracket
+Description for code block 7 (Line 20 to 22) : bracket, bracket
+
+Line 7 ~ 11 : 50.000000%
+Line 13 ~ 15 : 50.000000%
+Line 17 ~ 19 : 50.000000%
+Line 1 ~ 6 : 0.000000%
+Line 12 ~ 12 : 0.000000%
+Line 16 ~ 16 : 0.000000%
+Line 20 ~ 22 : 0.000000%
+
+Line 7 ~ 11 : 50.000000%
+Line 13 ~ 15 : 50.000000%
+Line 17 ~ 19 : 50.000000%
+Line 1 ~ 6 : 0.000000%
+Line 12 ~ 12 : 0.000000%
+Line 16 ~ 16 : 0.000000%
+Line 20 ~ 22 : 0.000000%
+
+Fixed Line: 19

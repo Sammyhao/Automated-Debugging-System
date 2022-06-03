@@ -1,0 +1,12 @@
+9 13 0.500000 fixed
+int main function, declare string variable t, input t, declare int variables n, s, w, e, iterate from 0 to the size of t - 1
+25 26 0.500000 fixed
+if n is larger than 0 and s is larger than 0 or w is larger than 0 and e is larger than 0, output Yes and end line
+14 21 0.428571 fixed
+if t[i] equals N, n plus 1, if t[i] equals W, w plus 1, if t[i] equals S, s plus 1, if t[i] equals E, e plus 1 
+1 8 0.000000
+include iostream, vector, algorithm headerfile, specify namespace, define datatype long long as ll
+22 24 0.000000
+
+27 30 0.000000
+else, output No and end line

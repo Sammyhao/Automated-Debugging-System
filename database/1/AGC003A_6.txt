@@ -1,0 +1,10 @@
+4 10 0.500000 fixed
+int main function, declare string S, input string S, declare boolean variable n equals true/ false of N being found in S with times larger than or equal to 0, declare boolean variable s equals true/ false of S being found in S with times larger than or equal to 0 declare boolean variable e equals true/ false of e being found in S with times larger than or equal to 0, declare boolean variable w equals true/ false of W being found in S with times larger than or equal to 0
+14 15 0.500000
+ else output Yes and end line
+1 3 0.000000
+include stdc++ headerfile, specify namespace
+11 13 0.000000
+if n equals 0 and s doesn't equals 0 or n doesn't equals 0 and s equals 0 or e equals 0 and w doesn't equals 0 or e doesn't equals 0 and w equals 0, output no and end line
+16 17 0.000000
+

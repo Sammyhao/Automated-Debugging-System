@@ -1,0 +1,10 @@
+6 7 0.500000 fixed
+bool function have with parameter char variable c, return the index of c in s not equal to size of s
+10 13 0.500000
+int main function, synchronize with stdio false, cin tie off, input s, output if only one of have(N) and have(S) is true or only one of have(E) and have(W) is true, No, else yes
+1 5 0.000000
+include stdc++ headerfile, specify namespace, declare string variable s
+8 9 0.000000
+
+14 14 0.000000
+

@@ -1,0 +1,27 @@
+Submission #26818757
+
+Source Code File:
+AGC003A_1.cpp
+
+Input:
+AGC003A/in/01.txt AGC003A/in/04.txt AGC003A/in/05.txt AGC003A/in/06.txt AGC003A/in/07.txt AGC003A/in/08.txt AGC003A/in/09.txt AGC003A/in/10.txt AGC003A/in/11.txt AGC003A/in/13.txt AGC003A/in/15.txt AGC003A/in/s1.txt AGC003A/in/s2.txt AGC003A/in/s3.txt AGC003A/in/s4.txt
+Output:
+AGC003A/out/01.txt AGC003A/out/04.txt AGC003A/out/05.txt AGC003A/out/06.txt AGC003A/out/07.txt AGC003A/out/08.txt AGC003A/out/09.txt AGC003A/out/10.txt AGC003A/out/11.txt AGC003A/out/13.txt AGC003A/out/15.txt AGC003A/out/s1.txt AGC003A/out/s2.txt AGC003A/out/s3.txt AGC003A/out/s4.txt
+
+Source Code Description:
+Snuke exists in a two-dimensional plane that is limitless. He'll be gone for N days. 
+He is at home at the start of Day 1. A string S of length N describes his strategy. 
+He will go a positive distance in the following direction on Day i(1iN):
+If the i-th letter of S is N, it is north; if the i-th letter of S is W, it is west.
+If the i-th letter of S is S, go south; if the i-th letter of S is E, go east.
+He hasn't determined how far he'll travel each day. 
+Determine whether each day's travel distance may be adjusted such that he arrives home at the end of Day N.
+
+Description for code block 1 (Line 5 to 9) : main function, declare string S, input S, declare two int variables recording north and west steps, iterate S from index 0 to the legnth of S
+Description for code block 2 (Line 20 to 20) : output yes if north and west step are 0, output no if north or west step is not 0
+Description for code block 3 (Line 10 to 17) : if s[i] equals N, north step plus 1, if s[i] equals S, north step minus 1, if s[i] equals E, west step plus 1, else, west step minus 1
+Description for code block 4 (Line 1 to 4) : include stdc++ headerfile, specify namespace
+Description for code block 5 (Line 18 to 19) : 
+Description for code block 6 (Line 21 to 22) : 
+
+Fixed Line: Line 14
